@@ -1,11 +1,11 @@
 import React from "react";
 
-const PageLayout = ({ header, children, footer }) => {
+const PageLayout = ({ header, footer, children }) => {
   return (
     <div>
-      <div>{header}</div>
-      <div>{children}</div>
-      <div>{footer}</div>
+      <header>{header}</header>
+      <main>{children}</main>
+      <footer>{footer}</footer>
     </div>
   );
 };
