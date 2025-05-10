@@ -4,14 +4,12 @@ import PageLayout from "./PageLayout";
 
 const App = () => {
   return (
-    <div>
-      <PageLayout
-        header={<h1>This is the Header</h1>}
-        footer={<p>This is the Footer</p>}
-      >
-        <p>This is the main content.</p>
-      </PageLayout>
-    </div>
+    <PageLayout
+      header={<h1>Welcome To My Website</h1>}
+      footer={<p>&copy; 2023 My Website.All Rights Reserved.</p>}
+    >
+      <p>This is the content of my website.</p>
+    </PageLayout>
   );
 };
 
