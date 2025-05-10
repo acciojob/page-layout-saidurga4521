@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageLayout = ({ header, footer, children }) => {
+const PageLayout = ({ header, children, footer }) => {
   return (
     <div>
       <div>{header}</div>
